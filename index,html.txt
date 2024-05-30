@@ -1,7 +1,0 @@
-index,html
-<DOCTYPE/>
-<html>
-<head>
-<h1> My name is Didarul Alam</h1>
-<head/>
-<html/>
