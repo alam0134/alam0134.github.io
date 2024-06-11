@@ -27,7 +27,16 @@ ul :nth-child(2n + 1){
 
     background-color: lightslategray;
 }
+
 .no-underline{
 
     text-decoration: none;
+}
+ /* Anchor tag is working but it's not changing the border. Background is also working.   */
+a{ 
+    border: 1px green;
+    background-color: blueviolet;
+}
+a:hover{
+    background-color: black;
 }
