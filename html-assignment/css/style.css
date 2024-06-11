@@ -23,7 +23,7 @@ ul{
 
     list-style-type: square;
 }
-ul :nth-child(1){
+ul :nth-child(2n + 1){
 
-    background-color: burlywood;
+    background-color: lightslategray;
 }
