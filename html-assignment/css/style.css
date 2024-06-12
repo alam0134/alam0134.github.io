@@ -39,7 +39,8 @@ ul{
 }
  /* Anchor tag is working but it's not changing the border. Background is also working.   */
 a{ 
-    border: 1px green;
+    border-style: solid;
+    border-color: red ;
     background-color: blueviolet;
 }
 a:hover{
