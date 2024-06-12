@@ -28,9 +28,9 @@ ul :nth-child(2n + 1){
     background-color: lightslategray;
 }
 
-.no-underline{
+ul{
 
-    text-decoration: none;
+    list-style-type: none;
 }
  /* Anchor tag is working but it's not changing the border. Background is also working.   */
 a{ 
