@@ -16,7 +16,7 @@ header, footer{
 #my-image{
 /* 1st one horizontal 2nd one vertical 3rd one blur 4th one spread*/
 
-box-shadow: 0px 0px 2px 1px; color: black;
+box-shadow: 0px 0px 2px 1px black;
     
 }
 /* no-underline is class of link  */
