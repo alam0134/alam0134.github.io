@@ -42,3 +42,6 @@ a{
 text-decoration: none;
 }
 
+li:last-child{
+    border-right: none;
+}
