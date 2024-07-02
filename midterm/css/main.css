@@ -49,7 +49,9 @@ li:last-child{
 }
 
 #second-picture{
-    width: 30somethin0px;
+    width: 300px;
     float: left;
     margin: 10px;
+    height: 350px;
 }
+ /* i will work with margin of paragraph heading */
