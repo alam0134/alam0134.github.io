@@ -47,3 +47,9 @@ color: black;
 li:last-child{
     border-right: none;
 }
+
+#second-picture{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
