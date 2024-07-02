@@ -11,4 +11,5 @@ body{
 .header {
     position: relative;
     background-image: url(/images/cat1.jpg);
+    width: 250px;
 }
