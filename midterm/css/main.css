@@ -12,5 +12,6 @@ body{
     position: relative;
     background-image: url(/images/cat1.jpg);
     width: auto;
-    height: auto;
+    height: 300px;
+
 }
