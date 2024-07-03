@@ -55,3 +55,8 @@ li:last-child{
     height: 350px;
 }
 
+#fullname{
+    width:710px;
+    margin: 10px;
+    height: 40px;
+}
