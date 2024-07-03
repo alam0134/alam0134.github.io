@@ -8,6 +8,7 @@ body{
     width: 750px;
     margin: 100px
 }
+/* Image and H1 both inside the header */
 header {
     position: relative;
     width: auto;
@@ -34,7 +35,7 @@ header h1{
     top: 35%;
     left: 30%;
     text-align: center;
-    color: black;
+    color: brown;
     font-size: 52px;
        
 }
@@ -99,10 +100,10 @@ li:last-child{
 #form{
     border: 1px solid black;
     padding-top: 20px;
-    background-color: lightcoral;
+    background-color: white;
     margin: 10px;
 }
-.fotter{
+.footer{
     margin: 10px;
     text-align: right;
 }
