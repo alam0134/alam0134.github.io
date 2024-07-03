@@ -83,11 +83,12 @@ li:last-child{
 }
 
 .lifeofcat{
-    margin: 20px;
+    margin: 10px;
 }
 
 #form{
     border: 1px solid black;
     padding-top: 20px;
     background-color: brown;
+    margin: 10px;
 }
