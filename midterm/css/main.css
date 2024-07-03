@@ -67,7 +67,9 @@ li:last-child{
     height: 40px;
 }
 #message{
-    
+    width:710px;
+    margin: 10px;
+    height: 60px;
 }
 #life, #facts, #contact{
     margin-left: 10px;
