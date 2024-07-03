@@ -60,7 +60,7 @@ li:last-child{
     margin: 10px;
     height: 40px;
 }
-
+/* Gave each of my input an id to change their properties */
 #email{
     width:710px;
     margin: 10px;
@@ -71,6 +71,7 @@ li:last-child{
     margin: 10px;
     height: 60px;
 }
+/* these ids are each section's heading id */
 #life, #facts, #contact{
     margin-left: 10px;
 }
