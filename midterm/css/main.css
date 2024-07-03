@@ -94,9 +94,10 @@ li:last-child{
 }
 .fotter{
     margin: 10px;
+    text-align: right;
 }
 #submit{
-    margin: 20px;
+    margin-top: 5px;
     height: 40px;
 }
 #radio{
