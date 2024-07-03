@@ -100,7 +100,7 @@ li:last-child{
 #form{
     border: 1px solid black;
     padding-top: 20px;
-    background-color: white;
+    background-color: rgb(255, 193, 193);
     margin: 10px;
 }
 .footer{
