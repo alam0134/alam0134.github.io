@@ -74,3 +74,8 @@ li:last-child{
 #life, #facts, #contact{
     margin-left: 10px;
 }
+
+.lebel{
+    margin: 10px;
+    font-size: 18px;
+}
