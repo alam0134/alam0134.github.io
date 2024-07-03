@@ -79,7 +79,7 @@ li:last-child{
 .lebel{
     margin: 10px;
     font-size: 18px;
-    color: #fff;
+    color: black;
 }
 
 .lifeofcat{
@@ -89,7 +89,7 @@ li:last-child{
 #form{
     border: 1px solid black;
     padding-top: 20px;
-    background-color: brown;
+    background-color: lightcoral;
     margin: 10px;
 }
 .fotter{
