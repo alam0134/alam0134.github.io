@@ -60,3 +60,10 @@ li:last-child{
     margin: 10px;
     height: 40px;
 }
+
+#email{
+    
+}
+#life, #facts, #contact{
+    margin-left: 10px;
+}
