@@ -42,3 +42,13 @@ table {
 	border-spacing: 0;
 }
 /* Copied the reset code from week 7 learning material */
+
+.logo{
+
+}
+
+nav ul:nth-child(1){
+    background-color:  #c78c06;
+    
+
+}
