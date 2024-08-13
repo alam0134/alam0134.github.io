@@ -101,5 +101,13 @@ i{
 }
 
 .search-bar{
-	height: 30px;
+	height: 29px;
+	width: 1200px;
+	/* i adjusted hight estimately since i have no information about hieght and size */
+	/* width 1200px i added to match the container width */
+}
+
+.search{
+	display: flex;
+	align-items: center;
 }
