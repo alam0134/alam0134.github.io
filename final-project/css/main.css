@@ -187,6 +187,7 @@ main img {
 .about-us-image {
 	width: 740px;
 	/* image was going out of the container so i gave a width to prevent that */
+	/* -20 px from 760px width, becauese i gave 10px padding */
 }
 
 .about-us {
@@ -203,4 +204,5 @@ main img {
 
 .about-us p {
 	line-height: 25px ;
+	/* height given to paragraph */
 }
