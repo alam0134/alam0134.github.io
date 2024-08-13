@@ -184,3 +184,16 @@ main img {
 }
 /* main page done */
 
+.about-us-image {
+	width: 740px;
+}
+
+.about-us {
+	background-color:#ffe6ac ;
+	padding: 10px;
+}
+
+.about-us h2 {
+	font-size: 50px;
+	font-weight: bolder;
+}
