@@ -114,3 +114,7 @@ i{
 }
 /* header finished */
 
+main img {
+	width: 760px;
+	/* gave container width size to the image to maintain the height line */
+}
