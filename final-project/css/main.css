@@ -399,6 +399,12 @@ main img {
 }
 /* visin finished. All of these sections are almost same i used service section's values for vision, only some slight changes */
 
+.our-team-wrapper h2 {
+	font-size: 50px;
+	font-weight: bolder;
+
+}
+
 .john img {
 	width: 740px;
 }
