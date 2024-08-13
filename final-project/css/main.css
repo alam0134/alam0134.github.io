@@ -48,7 +48,7 @@ body{
 }
 
 .container {
-	width: 1200px;
+	width: 760px;
 	margin: 0 auto;
 	/* margin 0 auto added to make it center */
 }
@@ -102,9 +102,9 @@ i{
 
 .search-bar{
 	height: 29px;
-	width: 1200px;
+	width: 100%;
 	/* i adjusted hight estimately since i have no information about hieght and size */
-	/* width 1200px i added to match the container width */
+	/* width 100% i added to match the container width */
 }
 
 .search{
