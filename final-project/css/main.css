@@ -214,4 +214,30 @@ main img {
 .our-services h2 {
 	font-size: 50px;
 	font-weight: bolder;
+	margin: 50px 0px 20px 0px ;
+	/* value are estimated to match with the given design */
+}
+
+.digital img {
+	width: 740px;
+}
+
+.digital {
+	background-color: #ffe6ac;
+}
+
+.digital h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin:30px 0px 30px 10px;
+}
+
+.digital p {
+	line-height: 25px;
+	/* all the paragraph's line hieght 25px */
+	margin: 0px 0px 10px 10px;
+}
+
+.digital button {
+	
 }
