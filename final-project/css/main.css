@@ -99,3 +99,7 @@ i{
 	padding: 5px;
 	/* border for the line around that and padding for the distance betwenn line and icon */
 }
+
+.search-bar{
+	height: 30px;
+}
