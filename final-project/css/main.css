@@ -52,6 +52,11 @@ body{
 	margin: 0 auto;
 	/* margin 0 auto added to make it center */
 }
+.header{
+	background-color: black;
+	padding: 10px;
+	/* for giving black color i added black bg in header and for space 10px padding */
+}
 /* target the logo picture and gave the background color */
 .logo {
 	background-color:#c78c06;
