@@ -123,10 +123,11 @@ main img {
 	background-image: url(/images/main-banner.jpg);
 	width: 760px;
 	background-size: cover;
-	padding: 10px;
+	padding: 50px 0px 50px 0px;
 	/* back-ground size used to make the picture cover the space */
 
 }
+
 
 .main-page h1 {
 	color: white;
@@ -138,7 +139,7 @@ main img {
 
 .main-page p {
 	color: white;
-	
+	margin-top: 10px;
 }
 
 .main-page button {
@@ -150,5 +151,35 @@ main img {
 
 .fa-play {
 	margin-left: 10px;
+	/* margin left 10px to create distance between icon and text */
 
+}
+
+/* .content-box{
+	background-color: black;
+	padding: 10px;
+	margin: 20px 0px 20px 0px;
+	
+} */
+
+.content-box h1 {
+	line-height: 110px;
+	/* used inline to create space between text */
+}
+
+.content-box p {
+	line-height: 25px;
+}
+
+.content-box button {
+	margin-top: 10px;
+}
+
+.content-box{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	margin: 20px 0px 20px 0px;
+	/* rgba for red, green, blue and aplha that is opecity */
+
+	
 }
