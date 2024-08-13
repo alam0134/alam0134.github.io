@@ -239,5 +239,11 @@ main img {
 }
 
 .digital button {
-	
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+	/* button values are same like main page buttom */
+	/* thinking to use same values for upcoming buttons */
 }
