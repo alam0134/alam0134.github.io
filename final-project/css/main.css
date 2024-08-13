@@ -43,9 +43,12 @@ table {
 }
 /* Copied the reset code from week 7 learning material */
 
-.logo{
-
+.container{
+	width: 1200px;
+	margin: 0 auto;
 }
+
+
 
 nav ul {
    background-color: #c78c06 ; 
