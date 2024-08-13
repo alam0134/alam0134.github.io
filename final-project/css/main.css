@@ -247,3 +247,31 @@ main img {
 	/* button values are same like main page buttom */
 	/* thinking to use same values for upcoming buttons */
 }
+
+.marketing img {
+	width: 740px;
+}
+
+.marketing {
+	background-color: #ffe6ac;
+}
+
+.marketing h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin:30px 0px 30px 10px;
+}
+
+.marketing p {
+	line-height: 25px;
+	/* all the paragraph's line hieght 25px */
+	margin: 0px 0px 10px 10px;
+}
+
+.marketing button {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+}
