@@ -88,3 +88,11 @@ nav ul li {
 }
 /* target all the list and give a black background */
 
+nav ul li a{
+	color: #c78c06;
+	text-decoration: none;
+}
+/* give a id to home list ancher tag to target it and give it black color */
+#home{
+	color: black;
+}
