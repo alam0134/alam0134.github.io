@@ -186,6 +186,7 @@ main img {
 
 .about-us-image {
 	width: 740px;
+	/* image was going out of the container so i gave a width to prevent that */
 }
 
 .about-us {
@@ -196,4 +197,10 @@ main img {
 .about-us h2 {
 	font-size: 50px;
 	font-weight: bolder;
+	margin: 20px 0px 20px 0px;
+	/* estimate value given to match with the sample */
+}
+
+.about-us p {
+	line-height: 25px ;
 }
