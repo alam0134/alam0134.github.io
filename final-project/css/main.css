@@ -478,3 +478,15 @@ main img {
 	margin: 10px;
 }
 
+.contact-us h2 {
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 50px 0px 20px 10px;
+}
+
+.contact-us h3 {
+	font-size: 35px;
+	font-weight: bolder;
+	margin: 30px 0px 20px 10px;
+}
+
