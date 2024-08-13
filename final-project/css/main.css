@@ -402,6 +402,7 @@ main img {
 .our-team-wrapper h2 {
 	font-size: 50px;
 	font-weight: bolder;
+	margin: 50px 0px 20px 10px;
 
 }
 
@@ -417,10 +418,22 @@ main img {
 .john h3 {
 	font-size: 25px;
 	font-weight: bold;
-	margin: 10px 10px 10px 5px ;
+	margin: 10px 10px 10px 10px ;
 }
 
 .john h4 {
-	
+	font-weight: bold;
+	margin-left: 10px;
 }
 
+.hr {
+	height: 3px;
+	background-color: #c78c06;
+	margin: 10px;
+}
+
+.john p {
+	line-height: 25px;
+	margin: 0px 10px 10px 10px;
+	padding-bottom: 20px;
+}
