@@ -206,3 +206,12 @@ main img {
 	line-height: 25px ;
 	/* height given to paragraph */
 }
+/* about us section finished */
+
+.our-services {
+	margin: 10px;
+}
+.our-services h2 {
+	font-size: 50px;
+	font-weight: bolder;
+}
