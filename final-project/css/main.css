@@ -49,6 +49,8 @@ body{
 
 .container {
 	width: 1200px;
+	margin: 0 auto;
+	/* margin 0 auto added to make it center */
 }
 /* target the logo picture and gave the background color */
 .logo {
@@ -59,3 +61,25 @@ body{
 .nav li:nth-child(1) {
 	background-color: #c78c06;
 }
+
+/* .nav li:nth-child(2) {
+	background-color: #000000;
+}
+
+.nav li:nth-child(3) {
+	background-color: #000000;
+}
+
+.nav li:nth-child(4) {
+	background-color: #000000;
+}
+
+.nav li:nth-child(5) {
+	background-color: #000000;
+} */
+
+nav ul li {
+	background-color: black;
+}
+/* target all the list and give a black background */
+
