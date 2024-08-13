@@ -275,3 +275,88 @@ main img {
 	margin: 10px;
 	border: 2px solid black;
 }
+
+.video img {
+	width: 740px;
+}
+
+.video {
+	background-color: #ffe6ac;
+}
+
+.video h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin:30px 0px 30px 10px;
+}
+
+.video p {
+	line-height: 25px;
+	/* all the paragraph's line hieght 25px */
+	margin: 0px 0px 10px 10px;
+}
+
+.video button {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+
+.web img {
+	width: 740px;
+}
+
+.web {
+	background-color: #ffe6ac;
+}
+
+.web h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin:30px 0px 30px 10px;
+}
+
+.web p {
+	line-height: 25px;
+	/* all the paragraph's line hieght 25px */
+	margin: 0px 0px 10px 10px;
+}
+
+.web button {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.print img {
+	width: 740px;
+}
+
+.print {
+	background-color: #ffe6ac;
+}
+
+.print h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin:30px 0px 30px 10px;
+}
+
+.print p {
+	line-height: 25px;
+	/* all the paragraph's line hieght 25px */
+	margin: 0px 0px 10px 10px;
+}
+
+.print button {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+}
