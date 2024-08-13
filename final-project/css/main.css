@@ -93,7 +93,7 @@ nav li{
 	text-align: center;
 }
 
-i{
+.fa-magnifying-glass{
 	color: #c78c06;
 	border:1px solid #c78c06;
 	padding: 5px;
@@ -119,9 +119,13 @@ main img {
 	/* gave container width size to the image to maintain the height line */
 }
 
-main {
+.main-page {
 	background-image: url(/images/main-banner.jpg);
 	width: 760px;
+	background-size: cover;
+	padding: 10px;
+	/* back-ground size used to make the picture cover the space */
+
 }
 
 .main-page h1 {
@@ -130,5 +134,21 @@ main {
 	/* font size is approximate to match the design */
 	font-weight: bolder;
 	/* font weight is bolder to make the look same like given sample */
+}
+
+.main-page p {
+	color: white;
+	
+}
+
+.main-page button {
+	padding: 20px;
+	background-color: #c78c06;
+	border: 2px solid #c78c06;
+	/* border added to remove the strock, i dont know where it came from */
+}
+
+.fa-play {
+	margin-left: 10px;
 
 }
