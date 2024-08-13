@@ -397,3 +397,18 @@ main img {
 	margin: 10px;
 	border: 1px solid #c78c06;
 }
+/* visin finished. All of these sections are almost same i used service section's values for vision, only some slight changes */
+
+.our-team {
+	margin: 10px;
+	background-color:#ffe6ac ;
+}
+
+.our-team h2 {
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 50px 0px 20px 0px;
+	/* same properties and values like service section */
+}
+
+.our-team 
