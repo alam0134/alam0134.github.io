@@ -93,3 +93,8 @@ nav li{
 	text-align: center;
 }
 
+i{
+	color: #c78c06;
+	border:1px solid #c78c06;
+	padding: 5px;
+}
