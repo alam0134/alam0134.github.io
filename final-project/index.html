@@ -132,7 +132,7 @@
         <h2>Contact Us</h2>
         <div class="message">
             <h3>Send us a massage</h3>
-            <form action="*" method="post">
+            <form action="*" method="post" id="form">
                 <!-- i have no page to add in my action -->
                <label for="full-name">Full Name</label>
                <br>
@@ -146,8 +146,9 @@
                <br>
                <textarea id="message"></textarea>
                <br>
-               <input id="button" type="submit" name="Send">
             </form>
+            <button type="submit" form="form" value="submit">Send</button>
+            <!-- its outside of the form but still part of form because form="form" is connected with id"form" inside opening form tag -->
         </div>
         <div class="operation">
             <h2>Hours of Operation</h2>
