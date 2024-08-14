@@ -517,3 +517,36 @@ main img {
 	font-size: 20px;
 }
 /* form finished */
+
+table tr th:nth-child(1) {
+	background-color:#ffe6ac;
+	padding: 15px 185px;
+	border: 1px solid black;
+	
+}
+
+table tr th:nth-child(2) {
+	background-color:#ffe6ac;
+	padding: 15px 150px;
+	border: 1px solid black;
+}
+
+/* table tr {
+	border: 1px solid black;
+} */
+ /* easy way is to give border to tr means table row */
+
+table tr td:nth-child(1) {
+	padding: 15px;
+	border: 1px solid black;
+	/* padding only for top and bottom */
+	/* padding value is completely estimated. i tried multiple value and this one matches closely */
+}
+
+table tr td:nth-child(2) {
+	padding: 15px;
+	border: 1px solid black;
+}
+
+/* table finished */
+
