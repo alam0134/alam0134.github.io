@@ -476,6 +476,7 @@ main img {
 .contact-us {
 	width: 760px;
 	margin: 10px;
+	
 }
 
 .contact-us h2 {
@@ -550,3 +551,24 @@ table tr td:nth-child(2) {
 
 /* table finished */
 
+.location iframe {
+	width: 760px;
+	padding: 10px 0px 10px 0px;
+}
+
+footer{
+	color:#c78c06;
+	font-size: 18px;
+	background-color:black;
+	/* padding: 20px; */
+	padding: 20px 10px;
+	line-height: 30px;
+	width: 760px;
+	
+}
+
+.footer{
+	color: #c78c06;
+	
+	
+}
