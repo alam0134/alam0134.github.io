@@ -916,8 +916,8 @@ table {
 	font-size: large;
 	color: white;
 	background-color: black;
-	width: 480px;
-	margin: 10px 10px 10px 10px ;
+	width: 100%;
+	/* margin: 10px 10px 10px 10px ; */
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
@@ -950,8 +950,8 @@ table {
 	font-size: large;
 	color: white;
 	background-color: black;
-	width: 480px;
-	margin: 10px 10px 10px 10px ;
+	width: 100%;
+	/* margin: 10px 10px 10px 10px ; */
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
@@ -959,17 +959,18 @@ table {
 	
 }
 
-.services {
+/* .services {
 	display: grid;
 	grid-template-columns: repeat(12,83px);
 	grid-template-rows: repeat(12,100px);
 	column-gap:10px ;
-}
+	margin: 0 auto; */
+/* }
 
-.digital {
+.digital { */
 	/* row is vertical and column is horizontal */
 	/* we can see the line if we inspect and on the grid guide */
-	grid-row-start: 1 ;
+	/* grid-row-start: 1 ;
 	grid-row-end: 7;
 	grid-column-start: 1;
 	grid-column-end: 7;
@@ -989,18 +990,74 @@ table {
 	grid-row-start:7  ;
 	grid-row-end:13 ;
 	grid-column-start:1 ;
-	grid-column-end: 4 ;
+	grid-column-end: 5 ;
 }
 
 .web {
 	grid-row-start:7  ;
 	grid-row-end:13 ;
-	grid-column-start:4;
-	grid-column-end: 7;
+	grid-column-start:5;
+	grid-column-end: 9;
 }
 
 .print {
+	grid-row-start:7  ;
+	grid-row-end:13 ;
+	grid-column-start:9;
+	grid-column-end: 13;
+} */
+
+/* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
+
+.services {
+	display: grid;
+	grid-template-columns: repeat(6,166px);
+	grid-template-rows: repeat(4,300px);
+	gap:10px ;
+	margin: 0 auto;
+}
+
+.digital {
+	/* row is vertical and column is horizontal */
+	/* we can see the line if we inspect and on the grid guide */
+	grid-row-start: 1 ;
+	grid-row-end: 3;
+	grid-column-start: 1 ;
+	grid-column-end: 4 ;
+	
+
+}
+
+.marketing {
+	grid-row-start:  1 ;
+	grid-row-end: 3 ;
+	grid-column-start: 4;
+	grid-column-end: 7 ;
+}
+
+.video {
+	grid-row-start: 3 ;
+	grid-row-end: 5 ;
+	grid-column-start: 1 ;
+	grid-column-end: 3 ;
+}
+
+.web {
+	grid-row-start: 3 ;
+	grid-row-end: 5 ;
+	grid-column-start: 3;
+	grid-column-end: 5 ;
+}
+
+.print {
+	grid-row-start: 3 ;
+	grid-row-end: 5 ;
+	grid-column-start: 5;
+	grid-column-end: 7 ;
+}
+
+/* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
 	
 }
-	
+
 }
