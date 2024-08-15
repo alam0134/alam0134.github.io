@@ -819,8 +819,140 @@ table {
 	
 }
 
-	
-	
+.marketing {
+	width: 50%;
+	background-color:#ffe6ac ;
+}
 
+.marketing img {
+	width: 100%;
+	/* width 100% to cover the whole div */
+}
+
+.marketing h3 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px 20px 10px ;
+}
+
+.marketing p {
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+.marketing button {
+	font-size: large;
+	color: white;
+	background-color: black;
+	width: 480px;
+	margin: 10px 10px 10px 10px ;
+	/* div width is 500px button width 480px and margin right, left 20px */
+	padding: 25px 10px 25px 10px;
+	/* these values are estimated */
+	border: 1px solid black;
+	
+}	
+
+.video {
+	width: 50%;
+	background-color:#ffe6ac ;
+}
+
+.video img {
+	width: 100%;
+	/* width 100% to cover the whole div */
+}
+
+.video h3 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px 20px 10px ;
+}
+
+.video p {
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+.video button {
+	font-size: large;
+	color: white;
+	background-color: black;
+	width: 480px;
+	margin: 10px 10px 10px 10px ;
+	/* div width is 500px button width 480px and margin right, left 20px */
+	padding: 25px 10px 25px 10px;
+	/* these values are estimated */
+	border: 1px solid black;
+	
+}
+
+.web {
+	width: 50%;
+	background-color:#ffe6ac ;
+}
+
+.web img {
+	width: 100%;
+	/* width 100% to cover the whole div */
+}
+
+.web h3 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px 20px 10px ;
+}
+
+.web p {
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+.web button {
+	font-size: large;
+	color: white;
+	background-color: black;
+	width: 480px;
+	margin: 10px 10px 10px 10px ;
+	/* div width is 500px button width 480px and margin right, left 20px */
+	padding: 25px 10px 25px 10px;
+	/* these values are estimated */
+	border: 1px solid black;
+	
+}
+
+.print {
+	width: 50%;
+	background-color:#ffe6ac ;
+}
+
+.print img {
+	width: 100%;
+	/* width 100% to cover the whole div */
+}
+
+.print h3 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px 20px 10px ;
+}
+
+.print p {
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+.print button {
+	font-size: large;
+	color: white;
+	background-color: black;
+	width: 480px;
+	margin: 10px 10px 10px 10px ;
+	/* div width is 500px button width 480px and margin right, left 20px */
+	padding: 25px 10px 25px 10px;
+	/* these values are estimated */
+	border: 1px solid black;
+	
+}
 	
 }
