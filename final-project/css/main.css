@@ -814,9 +814,9 @@ table {
 	color: white;
 	background-color: black;
 	width:100%;
-	/* margin: 10px 10px 10px 10px ; */
+	margin: 10px px 10px 10px ;
 	/* div width is 500px button width 480px and margin right, left 20px */
-	padding: 25px 10px 25px 10px;
+	padding: 25px 0px 25px 0px;
 	/* these values are estimated */
 	border: 1px solid black;
 	
@@ -1011,9 +1011,10 @@ table {
 
 .services {
 	display: grid;
-	grid-template-columns: repeat(6,166px);
-	grid-template-rows: repeat(4,300px);
-	/* these values in grid row and column are estimated i tried different values but this one gives more similar look. this value is devided by 100px */
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(4,fr);
+	/* 1 fr is 1/4th of the size */
+	/* these values in grid row and column are estimated i tried different values but this one gives more similar look. this value is devided by 1000px */
 	gap:10px ;
 	margin: 0 auto;
 }
@@ -1058,7 +1059,67 @@ table {
 }
 /* these are estimated value row and column also estimated i tried multiple value and this on looks most similar */
 /* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
-	
+
+.vision {
+	background-image: url(/images/vision.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 10px 100px 10px 100px;
 }
 
+.vision h2 {
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px;
+}
+
+.vision p {
+	width: 1000px;
+	color: white;
+	/* margin-right: 100px; */
+	line-height: 25px;
+}
+
+.vision button {
+	color:#ffffff ;
+	background-color: #222;
+	border: 1px solid #c78c06;
+	padding: 20px 20px;
+}
+/* vision finished */
+
+.our-team-wrapper {
+	width: 1200px;
+	padding: 0px 100px;
+}
+.our-team-wrapper h2 {
+	font-size: 45px;
+	/* same font size that i used for service h2 */
+	font-weight: bolder;
+	margin: 15px 0px 10px 0px;
+}
+
+.our-team-wrapper img {
+	width: 500px;
+}
+
+.our-team-wrapper h3 {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.our-team-wrapper h4 {
+	font-weight: bold;
+}
+
+.our-team-wrapper hr {
+	height: 2px;
+	background-color: #c78c06;
+}
+
+
+
+
+	
 }
