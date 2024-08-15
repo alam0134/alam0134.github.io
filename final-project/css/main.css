@@ -1013,6 +1013,7 @@ table {
 	display: grid;
 	grid-template-columns: repeat(6,166px);
 	grid-template-rows: repeat(4,300px);
+	/* these values in grid row and column are estimated i tried different values but this one gives more similar look. this value is devided by 100px */
 	gap:10px ;
 	margin: 0 auto;
 }
@@ -1055,7 +1056,7 @@ table {
 	grid-column-start: 5;
 	grid-column-end: 7 ;
 }
-
+/* these are estimated value row and column also estimated i tried multiple value and this on looks most similar */
 /* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
 	
 }
