@@ -747,16 +747,11 @@ table {
 	
 }
 
-.about-us p {
-	line-height: 25px;
-	margin: 10px 10px 10px 100px;
-}
-
 .about-us h2 {
 	/* this is about us heading */
 	font-size: 45px;
 	font-weight: bolder;
-	margin: 20px 10px 20px 100px;
+	margin: 20px 10px 15px 100px;
 }
 
 .about-us img {
@@ -765,9 +760,17 @@ table {
 	float: left;
 	margin: 10px 10px 10px 100px;
 	/* i tried this margin and it worked to make the space  */
-	
-
 }
+
+.about-us p {
+	line-height: 20px;
+	margin: 10px 100px 10px 10px;
+	clear:right;
+	/* i am bit confused about this clearing */
+}
+/* about-us section finished */
+
+
 	
 
 
