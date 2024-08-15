@@ -814,7 +814,7 @@ table {
 	color: white;
 	background-color: black;
 	width:100%;
-	margin: 10px 0px 10px 10px ;
+	margin: 10px 10px 10px 10px ;
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 0px 25px 0px;
 	/* these values are estimated */
