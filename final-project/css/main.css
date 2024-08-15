@@ -636,13 +636,35 @@ table {
 		
 	} */
 /* since header-container is the parent of all the elements in header so i gave flex to it */
-	.header-container {
-		display: flex;
+	.header-container, ul {
+		background-color: black;
+		/* i targeted header and ul together and gave black bg to them	 */
 	}
 
-	.header-container nav ul {
+	.header-container {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.header-container ul li a {
+		text-decoration: none;
+		color: #c78c06;
+		
+	}
+
+	.header-container ul {
+		display: flex;
+		align-items: baseline;
+	}
+
+	.header-container ul li:nth-child(1) {
+		background-color: #c78c06;
+	}
+/* i gave a id to first ancher tag of list, so that i can easily target that */
+	#home {
+		color: black;
+		padding-bottom: 25px;
 	}
 
 
