@@ -1091,7 +1091,7 @@ table {
 
 .our-team-wrapper {
 	width: 1200px;
-	padding: 0px 100px;
+	/* padding: 0px 100px; */
 }
 .our-team-wrapper h2 {
 	font-size: 45px;
@@ -1101,7 +1101,7 @@ table {
 }
 
 .our-team-wrapper img {
-	width: 500px;
+	/* width: 500px; */
 }
 
 .our-team-wrapper h3 {
@@ -1129,24 +1129,113 @@ table {
 
 .our-team {
 	display: grid;
-	grid-template-columns: 1fr 1fr ;
-	grid-template-rows: 1fr 1fr ;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	background-color:#ffe6ac; 
 
 }
 
-.john-image {
-	grid-row-start: ;
-	grid-row-end:  ;
-	grid-column-start: ;
-	grid-column-end:  ;
+.johnimage {
+	grid-row-start:1 ;
+	grid-row-end: 2 ;
+	grid-column-start:1 ;
+	grid-column-end: 2 ;
 }
 
 .john-details {
-	grid-row-start: ;
-	grid-row-end:  ;
-	grid-column-start: ;
-	grid-column-end:  ;
+	grid-row-start:1 ;
+	grid-row-end: 2 ;
+	grid-column-start: 2;
+	grid-column-end: 3 ;
 }
+
+.bob-image {
+	grid-row-start:2 ;
+	grid-row-end: 3 ;
+	grid-column-start: 2;
+	grid-column-end: 3 ;
+
+
+}
+
+.bob-details {
+	grid-row-start: 2 ;
+	grid-row-end: 3 ;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+}
+/* i will come back for fixing this */
+
+.contact-us {
+	width: 760px;
+	margin: 10px;
+	
+}
+
+.contact-us h2 {
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 50px 0px 20px 0px;
+}
+
+.contact-us h3 {
+	font-size: 35px;
+	font-weight: bolder;
+	margin: 30px 0px 20px 0px;
+}
+
+#full-name {
+	width: 500px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 0px;
+	/* 5px for top and bottom and 0px for left and right */
+}
+
+#email {
+	width: 500px;
+	margin:10px 0px 10px 0px ;
+	padding: 5px 0px;
+}
+
+#message {
+	width: 500px;
+	height: 150px;
+	margin:10px 0px 10px 0px ;
+	padding: 5px 0px;
+
+}
+
+.contact-us button {
+	background-color: #222;
+	color:#c78c06;
+	font-size: 20px;
+	/* properties are from mobile version */
+}
+
+.location iframe {
+	width: 500px;
+	padding: 10px 0px 10px 0px;
+}
+
+table tr td:nth-child(1) {
+	padding: 15px;
+	border: 1px solid black;
+	/* padding only for top and bottom */
+	/* padding value is completely estimated. i tried multiple value and this one matches closely */
+}
+
+table tr td:nth-child(2) {
+	padding: 15px;
+	border: 1px solid black;
+}
+
+.contact-us {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+
 
 
 
