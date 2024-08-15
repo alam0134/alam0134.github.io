@@ -785,7 +785,39 @@ table {
 	/* i bassically used bolder for all of my heading since i dont know the value */
 }
 
+.digital {
+	width: 50%;
+	background-color:#ffe6ac ;
+}
 
+.digital img {
+	width: 100%;
+	/* width 100% to cover the whole div */
+}
+
+.digital h3 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 20px 0px 20px 10px ;
+}
+
+.digital p {
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+.digital button {
+	font-size: large;
+	color: white;
+	background-color: black;
+	width: 480px;
+	margin: 10px 10px 10px 10px ;
+	/* div width is 500px button width 480px and margin right, left 20px */
+	padding: 25px 10px 25px 10px;
+	/* these values are estimated */
+	border: 1px solid black;
+	
+}
 
 	
 	
