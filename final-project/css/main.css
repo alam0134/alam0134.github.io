@@ -1217,6 +1217,19 @@ table {
 	padding: 10px 0px 10px 0px;
 }
 
+table tr th:nth-child(1) {
+	background-color:#ffe6ac;
+	padding: 15px 250px;
+	border: 1px solid black;
+	
+}
+
+table tr th:nth-child(2) {
+	background-color:#ffe6ac;
+	padding: 15px 230px;
+	border: 1px solid black;
+}
+
 table tr td:nth-child(1) {
 	padding: 15px;
 	border: 1px solid black;
@@ -1228,17 +1241,22 @@ table tr td:nth-child(2) {
 	padding: 15px;
 	border: 1px solid black;
 }
+.operation {
+	width: 100%;
+}
 
 .contact-us {
 	display: grid;
-	grid-template-columns: repeat(10, 100px);
-	grid-template-rows: repeat(10, 100px);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 20% 50% 30%;
+	column-gap: 10px;
 }
 
 .contact-us {
 	grid-template:
 	"h2 h2"
 	"massage location"
+	"operation operation"
 	 ;
 }
 
@@ -1258,6 +1276,18 @@ table tr td:nth-child(2) {
 	grid-area: operation;
 
 }
+
+footer{
+	color:#c78c06;
+	font-size: 18px;
+	background-color:black;
+	/* padding: 20px; */
+	padding: 20px 10px;
+	line-height: 30px;
+	width: 1200px;
+	
+}
+
 
 
 
