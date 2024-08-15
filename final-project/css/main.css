@@ -772,7 +772,7 @@ table {
 
 .our-services {
 	clear: left;
-	/* so i tried to clear next section and now it worked */
+	/* so i tried to clear next section and now it works*/
 	width: 1000px;
 	margin: 0px auto;
 	/* i gave 100px width and margin 0 auto to make the service section center in the container */
@@ -781,7 +781,7 @@ table {
 .our-services h2 {
 	font-size: 45px;
 	font-weight: bolder;
-	margin: 30px 0px 20px 0px ;
+	padding: 30px 0px 20px 0px ;
 	/* i bassically used bolder for all of my heading since i dont know the value */
 }
 
