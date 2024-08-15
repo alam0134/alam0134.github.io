@@ -786,8 +786,11 @@ table {
 }
 
 .digital {
-	width: 50%;
+	width: auto;
+	/* margin: 0px 5px 0px 0px; */
 	background-color:#ffe6ac ;
+	/* i removed my manual width and make the width with grid */
+	
 }
 
 .digital img {
@@ -820,7 +823,8 @@ table {
 }
 
 .marketing {
-	width: 50%;
+	width: auto;
+	/* margin: 0px 0px 0px 5px; */
 	background-color:#ffe6ac ;
 }
 
@@ -854,7 +858,7 @@ table {
 }	
 
 .video {
-	width: 50%;
+	width: auto;
 	background-color:#ffe6ac ;
 }
 
@@ -888,7 +892,7 @@ table {
 }
 
 .web {
-	width: 50%;
+	width: auto;
 	background-color:#ffe6ac ;
 }
 
@@ -922,7 +926,7 @@ table {
 }
 
 .print {
-	width: 50%;
+	width: auto;
 	background-color:#ffe6ac ;
 }
 
@@ -953,6 +957,47 @@ table {
 	/* these values are estimated */
 	border: 1px solid black;
 	
+}
+
+.services {
+	display: grid;
+	grid-template-columns: repeat(12,100px);
+	grid-template-rows: repeat(12,100px);
+	column-gap:10px ;
+}
+
+.digital {
+	/* row is vertical and column is horizontal */
+	/* we can see the line if we inspect and on the grid guide */
+	grid-row-start: 1 ;
+	grid-row-end: 7;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	
+
+}
+
+.marketing {
+	grid-area: marketing;
+	grid-row-start: 1;
+	grid-row-end: 7;
+	grid-column-start: 6;
+	grid-column-end: 11;
+}
+
+.video {
+	grid-row-start:7  ;
+	grid-row-end:13 ;
+	grid-column-start: ;
+	grid-column-end: ;
+}
+
+.web {
+	grid-area: web;
+}
+
+.print {
+	grid-area: print;
 }
 	
 }
