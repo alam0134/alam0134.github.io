@@ -699,11 +699,45 @@ table {
 .main-page {
 	background-image: url(/images/main-banner.jpg);
 	background-size:cover;
-	width: 760px;
+	background-position: center;
+	width: 1200px;
+	padding: 30px 0px;
+}
+
+.main-page h1 {
+	color: white;
+	font-size: 72px;
+	font-weight: bolder;
+	line-height: 100px;
+	padding-top: 20px;
+	/* since i have no information about size i tried multiple value and used the closest one */
 }
 /* content-box is a div inside main-page that i will use to give rbga */
 .content-box {
 	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.main-page p {
+	color: white;
+	line-height: 25px;
+	margin: 30px 0px 15px 0px;
+}
+
+.main-page button {
+	color: black;
+	background-color: #c78c06;
+	padding: 20px 10px;
+	border: 1px solid #c78c06;
+	/* i used border to remove the unwanted black button border */
+
+}
+
+.fa-play {
+	margin-left: 10px;
+	/* to create the space between text and icon */
 }
 
 	
