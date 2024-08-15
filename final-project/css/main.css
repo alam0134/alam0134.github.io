@@ -813,8 +813,8 @@ table {
 	font-size: large;
 	color: white;
 	background-color: black;
-	width: 480px;
-	margin: 10px 10px 10px 10px ;
+	width:100%;
+	/* margin: 10px 10px 10px 10px ; */
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
@@ -848,8 +848,8 @@ table {
 	font-size: large;
 	color: white;
 	background-color: black;
-	width: 480px;
-	margin: 10px 10px 10px 10px ;
+	width: 100%;
+	/* margin: 10px 10px 10px 10px ; */
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
@@ -882,8 +882,8 @@ table {
 	font-size: large;
 	color: white;
 	background-color: black;
-	width: 480px;
-	margin: 10px 10px 10px 10px ;
+	width: 100%;
+	/* margin: 10px 10px 10px 10px ; */
 	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
@@ -961,7 +961,7 @@ table {
 
 .services {
 	display: grid;
-	grid-template-columns: repeat(12,100px);
+	grid-template-columns: repeat(12,83px);
 	grid-template-rows: repeat(12,100px);
 	column-gap:10px ;
 }
@@ -972,7 +972,7 @@ table {
 	grid-row-start: 1 ;
 	grid-row-end: 7;
 	grid-column-start: 1;
-	grid-column-end: 6;
+	grid-column-end: 7;
 	
 
 }
@@ -981,23 +981,26 @@ table {
 	grid-area: marketing;
 	grid-row-start: 1;
 	grid-row-end: 7;
-	grid-column-start: 6;
-	grid-column-end: 11;
+	grid-column-start: 7;
+	grid-column-end: 13;
 }
 
 .video {
 	grid-row-start:7  ;
 	grid-row-end:13 ;
-	grid-column-start: ;
-	grid-column-end: ;
+	grid-column-start:1 ;
+	grid-column-end: 4 ;
 }
 
 .web {
-	grid-area: web;
+	grid-row-start:7  ;
+	grid-row-end:13 ;
+	grid-column-start:4;
+	grid-column-end: 7;
 }
 
 .print {
-	grid-area: print;
+	
 }
 	
 }
