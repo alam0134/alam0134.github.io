@@ -121,7 +121,7 @@ main img {
 }
 
 .main-page {
-	background-image: url(images/main-banner.jpg);
+	background-image: url(../images/main-banner.jpg);
 	width: 760px;
 	background-size: cover;
 	padding: 50px 0px 50px 0px;
