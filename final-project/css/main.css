@@ -121,7 +121,7 @@ main img {
 }
 
 .main-page {
-	background-image: url(/images/main-banner.jpg);
+	background-image: url(images/main-banner.jpg);
 	width: 760px;
 	background-size: cover;
 	padding: 50px 0px 50px 0px;
@@ -364,7 +364,7 @@ main img {
 /* services section finished */
 
 .vision {
-	background-image: url(/images/vision.jpg);
+	background-image: url(../images/vision.jpg);
 	background-size: cover;
 	background-position: center;
 	/* inspection saved me */
@@ -698,7 +698,7 @@ table {
 /* header finished */
 
 .main-page {
-	background-image: url(/images/main-banner.jpg);
+	background-image: url(../images/main-banner.jpg);
 	background-size:cover;
 	background-position: center;
 	width: 1200px;
@@ -1061,7 +1061,7 @@ table {
 /* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
 
 .vision {
-	background-image: url(/images/vision.jpg);
+	background-image: url(../images/vision.jpg);
 	background-position: center;
 	background-size: cover;
 	padding: 10px 100px 10px 100px;
