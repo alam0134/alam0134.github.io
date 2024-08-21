@@ -579,57 +579,7 @@ footer{
 /* in media screen means i will only target displays of mobile, pc, tablet */
 /* min-width means all changes will appear after given 760px and max means changes appear till that px */
 @media screen and (min-width: 760px) {
-	html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-.container {
+	.wrapper {
 		max-width: 1200px;  
 		/* max 1200px means all of my contents will stay inside 1200px */
 		margin: 0 auto;
@@ -698,7 +648,7 @@ table {
 /* header finished */
 
 .main-page {
-	background-image: url(../images/main-banner.jpg);
+	background-image: url(/images/main-banner.jpg);
 	background-size:cover;
 	background-position: center;
 	width: 1200px;
@@ -814,8 +764,6 @@ table {
 	color: white;
 	background-color: black;
 	width:100%;
-	margin: 10px 10px 10px 10px ;
-	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 0px 25px 0px;
 	/* these values are estimated */
 	border: 1px solid black;
@@ -849,8 +797,6 @@ table {
 	color: white;
 	background-color: black;
 	width: 100%;
-	/* margin: 10px 10px 10px 10px ; */
-	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
 	border: 1px solid black;
@@ -883,8 +829,6 @@ table {
 	color: white;
 	background-color: black;
 	width: 100%;
-	/* margin: 10px 10px 10px 10px ; */
-	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
 	border: 1px solid black;
@@ -917,8 +861,6 @@ table {
 	color: white;
 	background-color: black;
 	width: 100%;
-	/* margin: 10px 10px 10px 10px ; */
-	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
 	border: 1px solid black;
@@ -951,69 +893,18 @@ table {
 	color: white;
 	background-color: black;
 	width: 100%;
-	/* margin: 10px 10px 10px 10px ; */
-	/* div width is 500px button width 480px and margin right, left 20px */
 	padding: 25px 10px 25px 10px;
 	/* these values are estimated */
 	border: 1px solid black;
 	
 }
 
-/* .services {
-	display: grid;
-	grid-template-columns: repeat(12,83px);
-	grid-template-rows: repeat(12,100px);
-	column-gap:10px ;
-	margin: 0 auto; */
-/* }
-
-.digital { */
-	/* row is vertical and column is horizontal */
-	/* we can see the line if we inspect and on the grid guide */
-	/* grid-row-start: 1 ;
-	grid-row-end: 7;
-	grid-column-start: 1;
-	grid-column-end: 7;
-	
-
-}
-
-.marketing {
-	grid-area: marketing;
-	grid-row-start: 1;
-	grid-row-end: 7;
-	grid-column-start: 7;
-	grid-column-end: 13;
-}
-
-.video {
-	grid-row-start:7  ;
-	grid-row-end:13 ;
-	grid-column-start:1 ;
-	grid-column-end: 5 ;
-}
-
-.web {
-	grid-row-start:7  ;
-	grid-row-end:13 ;
-	grid-column-start:5;
-	grid-column-end: 9;
-}
-
-.print {
-	grid-row-start:7  ;
-	grid-row-end:13 ;
-	grid-column-start:9;
-	grid-column-end: 13;
-} */
-
-/* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
 
 .services {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(4,fr);
-	/* 1 fr is 1/4th of the size */
+	grid-template-rows: repeat(4, auto);
+	/* auto is for taking the space automatically*/
 	/* these values in grid row and column are estimated i tried different values but this one gives more similar look. this value is devided by 1000px */
 	gap:10px ;
 	margin: 0 auto;
@@ -1061,7 +952,7 @@ table {
 /* in this grid there are 12 column and row i devided 100px into 12 and gave 83px to each row and grid */
 
 .vision {
-	background-image: url(../images/vision.jpg);
+	background-image: url(/images/vision.jpg);
 	background-position: center;
 	background-size: cover;
 	padding: 10px 100px 10px 100px;
@@ -1095,42 +986,56 @@ table {
 }
 .our-team-wrapper h2 {
 	font-size: 45px;
-	/* same font size that i used for service h2 */
-	font-weight: bolder;
-	margin: 15px 0px 10px 0px;
+	
 }
 
-.our-team-wrapper img {
-	/* width: 500px; */
+.john-details h3 {
+	font-size: 30px;
+	margin: 15px 10px 0px 10px;
 }
 
-.our-team-wrapper h3 {
-	font-size: 25px;
-	font-weight: bolder;
+.john-details h4 {
+	margin: 0px 10px 0px 10px;
+
 }
 
-.our-team-wrapper h4 {
-	font-weight: bold;
+.john-details p {
+	margin: 10px 10px 0px 10px;
 }
 
-.our-team-wrapper hr {
-	height: 2px;
-	background-color: #c78c06;
+.hr {
+	height: 4px;
+	background-color:#c78c06;
+	margin: 0px 10px 0px 10px;
+	border: 0px solid;
+}
+
+.bob-details h3 {
+	font-size: 30px;
+	margin: 15px 10px 0px 10px;
+}
+
+.bob-details h4 {
+	margin: 0px 10px 0px 10px;
+
+}
+
+.bob-details p {
+	margin: 10px 10px 0px 10px;
 }
 
 
-.john-details {
-	/* width: 500px; */
-}
-
-.bob-details {
-	/* width: 500px; */
+.hr {
+	height: 4px;
+	background-color:#c78c06;
+	margin: 0px 10px 0px 10px;
+	border: 0px solid;
 }
 
 .our-team {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: repeat(2, 50%);
 	background-color:#ffe6ac; 
 
 }
@@ -1274,7 +1179,6 @@ table tr td:nth-child(2) {
 
 .operation {
 	grid-area: operation;
-
 }
 
 footer{
@@ -1287,11 +1191,12 @@ footer{
 	width: 1200px;
 	
 }
- 
-/* i ran out of time and i did some work after due date. i am so sorry for that i did the whole work within 2 days it was not enough time for me */
 
-/* after due date i finished my work in my practise code page and update that here. i really want to show you my work */
-/* al though i can not finish the our team section grid i will take me whole today to figure out */
+footer a {
+	text-decoration: none;
+	color:#c78c06;
+}
+
 
 
 	
